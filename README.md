@@ -1,2 +1,8 @@
 # Packet-System
-Packet System With TCP
+
+**To register a packet:**
+
+```
+Packets.subscribe(1, TestPacket.class).listener((packet) ->{}).register();
+```
+
